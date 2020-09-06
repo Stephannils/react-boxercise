@@ -4,7 +4,19 @@ import './BoxContainer.css';
 
 class BoxContainer extends Component {
   static defaultProps = {
-    colors: ['red', 'blue', 'white', 'black'],
+    colors: [
+      'red',
+      'blue',
+      'white',
+      'black',
+      'purple',
+      'pink',
+      'gray',
+      'yellow',
+      'magenta',
+      'brown',
+      'teal',
+    ],
   };
   render() {
     return (
